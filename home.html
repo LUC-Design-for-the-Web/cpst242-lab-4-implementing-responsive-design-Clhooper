@@ -1,7 +1,12 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Claire Hooper-->
 <html>
+
     <head>
         <title>MPLS Dogboarding </title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Claire Hooper">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body{
                 font-family: 'Montserrat', sans-serif;
@@ -77,6 +82,42 @@
                 height: 120px;
                 border-radius: 10px;
                 background-color: #000000dc;
+            }
+
+            @media screen and (max-width: 1024px){
+                aside{
+                    height: auto;
+
+                }
+
+                #flexcontainer{
+                    background-size: auto;
+                }
+                
+            }
+
+            @media screen and (max-width: 768px){
+                #flexcontainer{
+                    background-color: orange;
+                    background-image: url(img/dog_bg_768.jpg);
+                }
+
+                aside{
+                    background-color: #000000cf;
+                    color: white;
+                    background-position: center;
+                }
+
+                #location_button{
+                    display:block;
+                }
+
+                #location_button:hover{
+                    background-color: #ff4500bd;
+                    height: 325px;
+                    color: white;
+                    transition: all .2s ease-in-out;
+                }
             }
         </style>
     </head>
